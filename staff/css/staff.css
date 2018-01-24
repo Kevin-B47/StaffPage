@@ -1,0 +1,176 @@
+body {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background: #212121;
+}
+
+tr {
+	color: white;
+}
+
+td {
+	color: white;
+}
+
+img#logo{
+	position: relative;
+	margin: auto;
+	display:block;
+}
+
+p#small{
+	font-size: .7em;
+	display: inline;
+}
+
+p#results{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+p#steamid{
+	font-size: .5em;
+	display: inline;
+}
+
+p#resultssmall{
+	color: white;
+	font-size: 1em;
+	text-align: center;
+}
+
+th#lefttr{
+	text-align: left;
+	padding-left: 10px;
+	font-size: 1.5em;
+}
+
+th#centertr{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+a:link {
+    text-decoration: none;
+	color: #ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+input {
+	display: block;
+	float: left;
+	width: 10%;
+	left: 5%;
+	position: relative;
+	padding-left: 10px;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,.1), 0 6px 20px 0 rgba(0,0,0,.1);
+	border:1px solid black;
+	background: #1b1b1b;
+	color: white;
+}
+
+button.arrow {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,.1), 0 6px 20px 0 rgba(0,0,0,.1);
+    text-align: center;
+    text-decoration: none;
+	border: none;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	background: #1b1b1b;
+	border:1px solid black;
+	color: #ffffff;
+	float: right;
+	width: 4%;
+	position: relative;
+	right: 5%;
+}
+
+table.stafftable {
+	margin: auto;
+	background: #000000;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.9),
+	0px 10px 20px rgba(0,0,0,0.2),
+	0px 20px 20px rgba(0,0,0,0.2),
+	0px 30px 20px rgba(0,0,0,0.2);
+}
+
+table.stafftable tr {
+	background: #1A1A1A;
+}
+
+table.stafftable td {
+	font-family: 'Open Sans', sans-serif;
+	background:#1A1A1A;
+	padding: .2em;
+}
+
+table.stafftable tr.insert {
+	background:rgb(10, 10, 10);
+}
+
+table.stafftable td.centertext {
+	text-align: center;
+}
+
+table.stafftable td.pad {
+	font-size: 1.1em;
+	padding-left: .6125em;
+}
+
+p#showing {
+	font-size: 2em;
+    color: white;
+    text-align: center;
+    font-family: Open sans-serif;
+}
+
+p#header {
+    color: white;
+    text-align: center;
+}
+
+table.bantable th#lefttr {
+	text-align: left;
+	padding-left: .6125em;
+}
+
+td.group {
+	font-size: medium;
+	text-align: center;
+}
+
+td.group#trial {
+	color: rgb(0, 153, 0);
+}
+
+td.group#mod {
+	color: rgb(180, 106, 255);
+}
+
+td.group#admin {
+	color: rgb(0, 128, 255);
+}
+
+td.group#head {
+	color: rgb(0, 204, 102);
+}
+
+td.group#super {
+	color: rgb(255, 0, 0);
+}
+
