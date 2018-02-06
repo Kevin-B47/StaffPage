@@ -79,7 +79,7 @@ function AddTableRow(data){
 
     while(num < 6){
         for(i=0;i<adminTbl.length;i++){
-            if (num == toName[adminTbl[i].group].rank){
+            if (toName[adminTbl[i].group] != undefined & num == toName[adminTbl[i].group].rank){
                 sorted[tblIndex] = adminTbl[i];
                 tblIndex++;
                 toName[adminTbl[i].group].amount++;
